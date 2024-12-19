@@ -1,0 +1,159 @@
+main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.skills{
+    width: 500px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #7b0000;
+    box-shadow: 0 15px 20px #00000027;
+    list-style: none;
+    box-shadow: 5px 5px 10px red
+}
+
+.skills ul{
+    list-style: none;
+}
+
+.skills ul li{
+    margin: 20px 0;
+}
+
+.skills .barras{
+    background-color: #ccc;
+    display: block;
+    height: 20px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+}
+
+.barras > span{
+    height: 20px;
+    background: linear-gradient(to right, #fe4701, #ff0054);
+    position: absolute;
+}
+
+.word{
+      width: 90%;
+      animation: word 3s;
+}
+
+.excel{
+    width: 50%;
+    animation: excel 3s
+}
+
+.powerpoint{
+    width: 90%;
+    animation: powerpoint 3s
+}
+
+.html{
+    width: 50%;
+    animation: html 3s
+}
+
+.css{
+    width: 50%;
+    animation: css 3s
+}
+
+@keyframes word {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+    
+}
+
+@keyframes excel {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+    
+}
+
+@keyframes powerpoint {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+    
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+    
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+    
+}
+
+*Titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: left;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: left;
+}
+
+.links2{
+    background-color: #7b0000;
+    margin-top: 1.3rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 21rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 10px red
+}
+
+.links2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 5px red
+}
+
+.vl{
+    border-left: 1px solid white;
+    height: 1.3rem;
+}
